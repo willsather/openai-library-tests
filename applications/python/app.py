@@ -15,7 +15,7 @@ def get_hello():
 
 @app.route('/api/stream', methods=['GET'])
 def get_stream():
-    return Response(stream_with_context(stream()), content_type='text/html')
+    return Response(stream_with_context(stream()), content_type='text/html; charset=utf-8')
 
 if __name__ == '__main__':
     app.run(debug=True, port=3000)
