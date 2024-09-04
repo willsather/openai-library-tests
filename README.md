@@ -13,8 +13,8 @@ The tests can be found under [`tests`](./tests). More information can be found u
 
 This repository contains two test applications:
 
-1. Node, which uses [Express](https://expressjs.com/) and [OpenAI Node library](https://github.com/openai/openai-node)
-2. Python, which uses (**TODO**) and [OpenAI Python library](https://github.com/openai/openai-python)
+1. [Node](./applications/node), which uses [Express](https://expressjs.com/) and [OpenAI Node library](https://github.com/openai/openai-node)
+2. [Python](./applications/python), which uses [Flask](https://flask.palletsprojects.com/en/3.0.x/) and [OpenAI Python library](https://github.com/openai/openai-python)
 
 ## Bruno
 
