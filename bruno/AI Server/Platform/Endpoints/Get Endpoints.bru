@@ -1,0 +1,11 @@
+meta {
+  name: Get Endpoints
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{AI_SERVER_URL}}/api/config/endpoint
+  body: none
+  auth: inherit
+}

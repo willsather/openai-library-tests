@@ -1,0 +1,25 @@
+{
+  "name": "openai-library-tests",
+  "version": "0.0.1",
+  "description": "api tests for compatible ai endpoints",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test --trace on",
+    "test:open": "playwright test --ui --trace on",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.5.1",
+    "eslint": "^9.9.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.9.0",
+    "prettier": "3.3.3",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.3.0"
+  }
+}

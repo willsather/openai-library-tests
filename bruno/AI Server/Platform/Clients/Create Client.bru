@@ -1,0 +1,23 @@
+meta {
+  name: Create Client
+  type: http
+  seq: 1
+}
+
+put {
+  url: {{AI_SERVER_URL}}/api/config/client
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "spec": {
+      "name": "{{CLIENT_NAME}}"
+    }
+  }
+}
+
+vars:pre-request {
+  CLIENT_NAME: my-client
+}

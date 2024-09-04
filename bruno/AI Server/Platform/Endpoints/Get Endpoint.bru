@@ -1,0 +1,15 @@
+meta {
+  name: Get Endpoint
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{AI_SERVER_URL}}/api/config/endpoint/{{ENDPOINT_NAME}}
+  body: none
+  auth: inherit
+}
+
+vars:pre-request {
+  ENDPOINT_NAME: openai
+}
